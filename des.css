@@ -1,0 +1,121 @@
+body{
+    background-image: url(i.jpg);
+    background-repeat: no-repeat ;
+    background-attachment: fixed;
+    background-position: stretch;
+    background-size:cover;
+    background-position: center; 
+    margin:0px;
+
+}
+#box0{
+    font-family: Sofadi One;
+    color:white;
+    font-size: 60px;
+    position: relative;
+    top: 30px;
+    left: 450px;
+    
+}
+
+    
+
+#box1{
+    color: rgb(105, 10, 221);
+    font-family: "consolas" sans-serif ;
+    font-size: 22px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration:  underline;
+    position: relative;
+    top: 100px;
+    left: 700px;
+}
+
+#box2{
+    color: rgb(105, 10, 221);
+    font-family: "consolas" sans-serif ;
+    font-size: 22px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration:  underline;
+    position: relative;
+    top: -310px;
+    left: 30px;
+}
+#box3{
+    color: rgb(105, 10, 221);
+    font-family: "consolas" sans-serif ;
+    font-size: 22px;
+    font-weight: bold;
+    position: relative;
+    top: -250px;
+    left: 30px;
+    
+}
+    
+#box4{
+    color: rgb(105, 10, 221);
+    font-family: "consolas" sans-serif ;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration:  underline;
+    position: relative;
+    top: -250px;
+    left: 250px;
+
+}
+#box5{
+    color: rgb(105, 10, 221);
+    font-family: "consolas" sans-serif ;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration:  underline;
+    position: relative;
+    top: -310px;
+    left: 250px;
+
+}
+#box6{
+    color: rgb(105, 10, 221);
+    font-family: "consolas" sans-serif ;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration:  underline;
+    position: relative;
+    top: 100px;
+    left: 910px;
+
+}
+#box8{
+    color: rgb(105, 10, 221);
+    font-family: "consolas" sans-serif ;
+    font-size: 22px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration:  underline;
+    position: relative;
+    top: -660px;
+    left: 700px;
+}
+#box9{
+    color: rgb(105, 10, 221);
+    font-family: "consolas" sans-serif ;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration:  underline;
+    position: relative;
+    top: -660px;
+    left: 920px;
+
+}
+
+

@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom right,#F53844,#42378F); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    height: 55%;
+    max-height: 400px ;
+    background: rgba(23, 4, 53, 0.8);
+    border-radius: 20px; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); 
+    padding: 20px; 
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px; 
+}
+
+.refresh-icon {
+    margin-left: 10px; 
+    position: relative;
+    bottom: -10px;
+}
+
+.refresh-icon img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer; 
+}
+
+.profile-icon {
+    width: 45px;
+    height: 45px;
+    background-color: #e0e0e0; 
+    border-radius: 50%; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    overflow: hidden; 
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5); 
+}
+
+.profile-icon img {
+    width: 100%; 
+    height: auto;
+    
+}
+.profile-icon {
+    position: relative;
+    top: -10px;
+    left: 80px;
+
+}
+
+.username {
+    margin-right: 0px;
+    margin-top: -10px;
+    font-size: 30px; 
+    color: #00ffcc; 
+    text-shadow: 0 0 5px rgba(0, 255, 255, 0.8), 0 0 10px rgba(0, 255, 255, 0.6); 
+    position: relative;
+    top: 30px;
+    left: -70px;
+}
+
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 30px;
+    margin: 20px 0; 
+}
+
+.grid-button {
+    background: linear-gradient(to bottom right, #1bdc9c, #00a8ff); 
+    border: none;
+    border-radius: 20px;
+    padding: 30px; 
+    font-size: 22px; 
+    font-weight: bold;
+    color: #fff; 
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s, border 0.3s, box-shadow 0.3s; 
+    box-shadow: 0 4px 8px rgba(0, 255, 255, 0.3), 0 0 10px rgba(0, 255, 255, 0.5); 
+    border: 3px solid transparent; 
+}
+
+.grid-button:hover {
+    transform: translateY(-5px); 
+    background: linear-gradient(to bottom right, #00a8ff, #1bdc9c); 
+    box-shadow: 0 6px 12px rgba(0, 255, 255, 0.5), 0 0 20px rgba(0, 255, 255, 0.7); 
+    border: 3px solid #00ffcc;
+}
+
+
+@media (max-width: 768px) {
+    .button-grid {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+
+    .username {
+        font-size: 24px; 
+    }
+
+    .grid-button {
+        padding: 10px; 
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .button-grid {
+        grid-template-columns: 1fr; 
+    }
+}
