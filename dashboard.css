@@ -16,7 +16,11 @@ body {
 .container {
     width: 100%;
     max-width: 1200px;
-    height: 55%;
+
+    /* changes */
+
+    /* height: 55%;   */
+
     max-height: 400px ;
     background: rgba(23, 4, 53, 0.8);
     border-radius: 20px; 
@@ -60,36 +64,45 @@ header {
     height: auto;
     
 }
-.profile-icon {
+/* .profile-icon {
     position: relative;
     top: -10px;
     left: 80px;
 
+} */
+.user-profile{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
 }
 
 .username {
-    margin-right: 0px;
-    margin-top: -10px;
+    /* margin-right: 0px;
+    margin-top: -10px; */
     font-size: 30px; 
     color: #00ffcc; 
     text-shadow: 0 0 5px rgba(0, 255, 255, 0.8), 0 0 10px rgba(0, 255, 255, 0.6); 
-    position: relative;
+    /* position: relative;
     top: 30px;
-    left: -70px;
+    left: -70px; */
 }
 
 .button-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
     gap: 30px;
-    margin: 20px 0; 
+    padding: 40px 0px;
+    /* margin: 20px 0;  */
+
 }
 
 .grid-button {
     background: linear-gradient(to bottom right, #1bdc9c, #00a8ff); 
     border: none;
     border-radius: 20px;
-    padding: 30px; 
+    padding: 20px; 
+    text-align:center;
     font-size: 22px; 
     font-weight: bold;
     color: #fff; 
@@ -114,17 +127,40 @@ header {
     }
 
     .username {
-        font-size: 24px; 
+        font-size:24px; 
     }
 
     .grid-button {
         padding: 10px; 
-        font-size: 40px;
+        font-size: 20px;
+        /* font-size: 40px; */
+    }
+    .button-grid{
+        padding:20px;
     }
 }
 
 @media (max-width: 480px) {
-    .button-grid {
+    /* .button-grid {
         grid-template-columns: 1fr; 
+    } */
+
+    .button-grid {
+        /* display: grid; */
+        grid-template-columns: repeat(3, 1fr); 
+        /* gap: 30px; */
+        /* margin: 20px 0;  */
+            padding:20px;
+        
     }
+    .grid-button{
+        font-size: 11px;
+    }
+    .container{
+        width:90%;
+    }
+    .button-grid{
+        gap:20px
+    }
+
 }
